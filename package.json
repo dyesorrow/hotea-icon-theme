@@ -1,0 +1,25 @@
+{
+    "name": "vscode-hotea-icon-theme",
+    "displayName": "Hotea Icon Theme",
+    "description": "simple icon theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.43.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "iconThemes": [{
+            "id": "vscode-hotea-icon-theme",
+            "label": "Hotea Icon Theme",
+            "path": "./dist/hotea-icon-theme.json"
+        }]
+    },
+    "scripts": {
+        "font": "ts-node src/fonts.ts"
+    },
+    "dependencies": {
+        "svgtofont": "^1.6.0"
+    }
+}
